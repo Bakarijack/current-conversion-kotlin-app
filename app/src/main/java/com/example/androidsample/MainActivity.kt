@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext,"String not accepted!",Toast.LENGTH_SHORT).show()
             }
 
-
         }else{
             conversionResult.text = getString(R.string.no_value)
         }
